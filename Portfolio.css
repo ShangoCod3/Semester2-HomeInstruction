@@ -1,0 +1,70 @@
+/* Portfolio.css */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #e9f2ff;
+  margin: 0;
+  padding: 0;
+  background: rgba(0, 0, 50, 0.7); /* overlay tint */
+  background-blend-mode: overlay;
+}
+
+h1, h2, h4 {
+  color: #b3daff;
+  text-align: center;
+  margin-top: 30px;
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px #000;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+h4 {
+  font-size: 1.5em;
+  margin-top: 40px;
+}
+
+section, ul {
+  max-width: 800px;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  border-radius: 10px;
+  backdrop-filter: blur(4px);
+  margin-top: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 40px;
+}
+
+li p, li {
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: #d0e7ff;
+}
+
+a {
+  color: #66ccff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #3399ff;
+  text-decoration: underline;
+}
+
+.next {
+  display: block;
+  width: fit-content;
+  margin: 40px auto
