@@ -71,9 +71,7 @@ a:hover {
 }
 
 .button-row {
-  display: flex;
-  gap: 12px; /* space between buttons */
-  margin-top: 16px; /* optional spacing */
+  margin-bottom: 0;
 }
 
 .button-row .home, .button-row .next {
