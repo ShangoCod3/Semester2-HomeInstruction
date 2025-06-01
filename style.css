@@ -62,7 +62,11 @@ a:hover {
   color: #3399ff;
   text-decoration: underline;
 }
-
+.home {
+  display: block;
+  width: fit-content;
+  margin: 40px auto
+}
 .next {
   display: block;
   width: fit-content;
