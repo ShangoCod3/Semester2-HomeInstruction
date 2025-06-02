@@ -69,6 +69,13 @@ a:hover {
   margin: 0 auto; 
 }
 
+.button-row {
+    display: flex;        /* Add this line */
+  justify-content: center; /* Optional: centers the buttons horizontally */
+  gap: 10px;            /* Optional: adds space between the buttons */
+  margin-bottom: 0;
+}
+
 .button-row .home, .button-row .next {
   /* Optional: add padding, background, border, etc. for button styling */
   padding: 8px 16px;
@@ -78,10 +85,6 @@ a:hover {
   border-radius: 4px;
   font-weight: bold;
   transition: background 0.2s;
-  display: flex;        /* Add this line */
-  justify-content: center; /* Optional: centers the buttons horizontally */
-  gap: 10px;            /* Optional: adds space between the buttons */
-  margin-bottom: 0;
 }
 
 .button-row .home:hover, .button-row .next:hover {
